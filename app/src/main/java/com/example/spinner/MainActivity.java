@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        Intent iSpinner=new Intent(this,Spinner.class);
+        Intent iSpinner=new Intent(this,SpinnerEjm.class);
         startActivity(iSpinner);
     }
 }
